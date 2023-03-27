@@ -1,0 +1,12 @@
+.fa:hover {
+    filter: brightness(75%);
+}
+
+.project-name {
+    color: black;
+    text-decoration: none;
+}
+
+.project-name:hover {
+    filter: brightness(75%);
+}
