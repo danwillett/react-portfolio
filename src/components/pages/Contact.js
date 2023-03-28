@@ -37,6 +37,11 @@ export default function Contact() {
       return;
     }
 
+    if(messenger.length === 0 || email.length === 0 || message.length === 0 ) {
+        setAlert("Please include all fields");
+      return;
+    }
+
     setSent(`Message sent!`);
     setMessenger("");
     setEmail("");
@@ -83,7 +88,7 @@ export default function Contact() {
 
         <div className="form-group col-10">
           <label for="message">Message</label>
-          <input
+          <textarea
             id="message"
             className="form-control"
             value={message}

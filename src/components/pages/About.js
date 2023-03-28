@@ -11,9 +11,6 @@ export default function Body() {
         article: {
             maxWidth: "500px"            
         },       
-        list: {
-            listStyleType: "none",
-        },
         picture: {
             padding: "30px 0 30px 0",
             maxWidth: "300px",
@@ -40,29 +37,7 @@ export default function Body() {
             analytics in MATLAB and Python, and I found myself really enjoying
             the process. With a background in Enviornmental Science, and these
             new coding skills, I searching for opportunities where I can help
-            create positive change in our world. Here are a few languages,
-            libraries & frameworks, and tools & platforms I've learned from my
-            Bootcamp:
-            <div className="d-flex flex-row flex-wrap">
-              <ul style={styles.list}>
-                <li>JavaScript</li>
-                <li>Node.js</li>
-                <li>Express.js</li>
-                <li>HTML</li>
-              </ul>
-              <ul style={styles.list}>
-                <li>Python</li>
-                <li>Flask</li>
-                <li>React</li>
-                <li>CSS</li>
-              </ul>
-              <ul style={styles.list}>
-                <li>MySql + Sequelize</li>
-                <li>MongoDB + Mongoose</li>
-                <li>Heroku</li>
-                <li>Bootstap</li>
-              </ul>
-            </div>
+            create positive change in our world. 
           </div>
         </article>
 
