@@ -1,15 +1,28 @@
 import React from "react";
 
+const styles = {
+
+  header: {
+    fontSize: "50px",
+    padding: "20px"
+  },
+  links: {
+    color: "rgb(183, 189, 166)",
+  }
+
+}
+
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <header>
-      <h1>Dan Willett</h1>
+      <h1 style={styles.header}>Dan Willett</h1>
       <ul className="nav nav-tabs">
         <li className="nav-item">
           <a
             href="#about"
             onClick={() => handlePageChange("About")}
             className={currentPage === "About" ? "nav-link active" : "nav-link"}
+            style={styles.links}
           >
             About Me
           </a>
@@ -19,8 +32,9 @@ function NavTabs({ currentPage, handlePageChange }) {
             href="#portfolio"
             onClick={() => handlePageChange("Portfolio")}
             className={
-              currentPage === "Porfolio" ? "nav-link active" : "nav-link"
+              currentPage === "Portfolio" ? "nav-link active" : "nav-link"
             }
+            style={styles.links}
           >
             Portfolio
           </a>
@@ -32,6 +46,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             className={
               currentPage === "Contact" ? "nav-link active" : "nav-link"
             }
+            style={styles.links}
           >
             Contact
           </a>
@@ -43,6 +58,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             className={
               currentPage === "Resume" ? "nav-link active" : "nav-link"
             }
+            style={styles.links}
           >
             Resume
           </a>
