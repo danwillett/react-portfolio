@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.4180d96b.css",
+    "main.js": "/react-portfolio/static/js/main.5fca6a98.js",
+    "static/media/outdoorsyISH.png": "/react-portfolio/static/media/outdoorsyISH.c99cedfd3cde59f3bf7e.png",
+    "static/media/employee-tracker.png": "/react-portfolio/static/media/employee-tracker.c61ff43d9baddb5f27fd.png",
+    "static/media/bio2.jpg": "/react-portfolio/static/media/bio2.5cf5d840b4553496f9d7.jpg",
+    "static/media/ecommerce.png": "/react-portfolio/static/media/ecommerce.67d43b9eed9f04295934.png",
+    "static/media/weather.png": "/react-portfolio/static/media/weather.b7419e5760c71f3d2a76.png",
+    "static/media/text-editor.png": "/react-portfolio/static/media/text-editor.6a8615cff40fb46542a5.png",
+    "static/media/restaurant-roulette.png": "/react-portfolio/static/media/restaurant-roulette.52f2193d94e62b1387da.png",
+    "static/media/resume.pdf": "/react-portfolio/static/media/resume.9d683ce57cbf292e6cd2.pdf",
+    "index.html": "/react-portfolio/index.html",
+    "main.4180d96b.css.map": "/react-portfolio/static/css/main.4180d96b.css.map",
+    "main.5fca6a98.js.map": "/react-portfolio/static/js/main.5fca6a98.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4180d96b.css",
+    "static/js/main.5fca6a98.js"
+  ]
+}
