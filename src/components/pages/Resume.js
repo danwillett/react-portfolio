@@ -4,18 +4,28 @@ import resumePDF from '../../assets/downloads/resume.pdf'
 export default function Resume() {
     
     const styles = {   
+        header: {
+          padding: "30px",
+          fontSize: "30px"
+
+        },
         list: {
             listStyleType: "none",
+            textAlign: "center",
+            fontSize: "20px"
         },
+        resume: {
+          fontSize: "15px",
+          textDecoration: "none",
+          padding: "20px"
+        }
     }
     
     
     return (
-    <div>
-        <h3>Web Development Proficiencies</h3>
-        <a href={resumePDF} download="Dan_Willett_Resume">Resume</a>
-        <p>Here are a few languages libraries & frameworks, and tools & platforms I've worked with:</p>
-            <div className="d-flex flex-row flex-wrap">
+    <div className="d-flex flex-column text-center">
+        <h3 style={styles.header}>Web Development Proficiencies</h3>
+            <div className="d-flex flex-row flex-wrap justify-content-center">
               <ul style={styles.list}>
                 <li>JavaScript</li>
                 <li>Node.js</li>
@@ -35,6 +45,7 @@ export default function Resume() {
                 <li>Bootstap</li>
               </ul>
             </div>
+            <a href={resumePDF} download="Dan_Willett_Resume" style={styles.resume}>Download Resume</a>
     </div>
     )
 

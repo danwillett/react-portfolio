@@ -49,15 +49,24 @@ export default function Contact() {
   };
 
   const styles = {
+    instructions: {
+      margin: "20px 0",
+      fontSize: "20px"
+    },
+
     form: {
       padding: "0 20px",
       lineHeight: "40px",
     },
+
+    spacing: {
+      marginTop: "20px"
+    }
   };
 
   return (
     <div style={styles.form}>
-      <p>Please contact me through the form below.</p>
+      <p style={styles.instructions}>Please contact me through the form below.</p>
       <form>
         <div className="form-row">
           <div className="form-group col-4">
@@ -72,7 +81,7 @@ export default function Contact() {
               placeholder="Enter your name"
             />
           </div>
-          <div className="form-group col-4">
+          <div className="form-group col-4" style={styles.spacing}>
             <label for="email">Email Address</label>
             <input
               id="email"
@@ -86,7 +95,7 @@ export default function Contact() {
           </div>
         </div>
 
-        <div className="form-group col-10">
+        <div className="form-group col-10" style={styles.spacing}>
           <label for="message">Message</label>
           <textarea
             id="message"
@@ -99,6 +108,7 @@ export default function Contact() {
           />
         </div>
         <button
+          style={styles.spacing}
           className="btn btn-primary"
           type="button"
           onClick={handleFormSubmit}

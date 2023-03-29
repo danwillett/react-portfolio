@@ -26,11 +26,20 @@ export default function ContentContainer(){
 
     const handlePageChange = (page) => setCurrentPage(page)
 
+    const styles = {
+        color: "rgb(183, 189, 166)",
+        paddingBottom: "80px"
+    }
     return (
-        <div>
+        <>
+        <div style={styles}>
             <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
-            <Footer />
         </div>
+        <div>
+        <Footer />
+        </div>
+        </>
+        
     )
 }
