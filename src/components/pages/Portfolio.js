@@ -6,6 +6,7 @@ import textEditor from '../../assets/portfolio-images/text-editor.png'
 import employeeTracker from '../../assets/portfolio-images/employee-tracker.png'
 import ecommerce from '../../assets/portfolio-images/ecommerce.png'
 import weather from '../../assets/portfolio-images/weather.png'
+import recipeasy from '../../assets/portfolio-images/recipeasy.png'
 // make flex boxes for projects in styles
 const styles = {
     portfolio: {
@@ -16,6 +17,7 @@ function Portfolio() {
     return (
         <section style={styles.portfolio}className='d-flex flex-row flex-wrap justify-content-center'> 
         <Card title="OutdoorsyISH" github="https://github.com/danwillett/national-park-planner" deployed="https://danwillett.github.io/national-park-planner/" image={outdoorsyISH}/>
+        <Card title="Recipeasy" github="https://github.com/cjmugs1/recipeasyLinks" deployed="https://recipeasy-cookbook.herokuapp.com/" image={recipeasy}/>       
         <Card title="Restaurant Roulette" github="https://github.com/danwillett/restaurant-roulette" deployed="https://stark-headland-23711.herokuapp.com/" image={restaurant}/>
         <Card title="Weather Dashboard" github="https://github.com/danwillett/weather-forecast" deployed="https://danwillett.github.io/weather-forecast/" image={weather}/>
         <Card title="E-commerce Backend" github="https://github.com/danwillett/ecommerce-backend" deployed="https://github.com/danwillett/ecommerce-backend" image={ecommerce}/>
